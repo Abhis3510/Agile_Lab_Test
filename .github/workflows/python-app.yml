@@ -1,0 +1,9 @@
+name: Abhishek-Automation
+on: [push]
+jobs:
+  run-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run my python script
+        run: python x.py

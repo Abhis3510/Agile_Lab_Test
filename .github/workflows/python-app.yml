@@ -25,4 +25,4 @@ jobs:
           pip install scikit-learn
 
       - name: Run ML script
-        run: python ml.py
+        run: python ml2.py
